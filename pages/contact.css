@@ -62,7 +62,44 @@ nav{
   padding:15px;
 }
 
+h4{
+  font-size: 25px;
+  font-weight: lighter;
+}
 
-img{
-  height:350px;
+label{
+  width:100px;
+  float:left;
+  text-align: left;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#basic {
+  display:block;
+  width: 200px;
+  padding:5px;
+  margin-left:5px;
+  color:black;
+  font-weight: 300;
+
+}
+
+form{
+  border:3px dashed gray;
+  border-style: outset;
+  margin: auto;
+  padding:15px;
+  width: 250px;
+  background: hsl(120, 20%, 90%);
+
+}
+
+.submit input{
+  margin: 15px;
+  background-color:gray;
+  border-radius: 15%;
+  font-family:monospace;
+  color: white;
+  cursor: pointer;
 }

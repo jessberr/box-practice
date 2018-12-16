@@ -12,7 +12,7 @@
     </header>
     <nav>
       <ul>
-        <li><a href="/">Home</a></li>
+        <li><a href="/landingpage.html">Home</a></li>
         <li><a>Gallery</a></li>
         <li><a>Blog</a></li>
         <li><a>About</a></li>
@@ -20,11 +20,19 @@
       </ul>
     </nav>
 
-    <div class="photos">
-      <img src="/pics/IMG_7988.jpg" alt="mountain in background of snowy grass"/>
-    </div>
-    <div class="intro">
-      <p></p>
+    <div>
+      <h4>We'd love to hear from you!</h4>
+      <form  class="contact-form">
+        <label for="name">Name:</label>
+        <input id="basic" type="text" id="name" name="name" required/>
+        <label for="email">Email:</label>
+        <input id="basic" type="email" id="email" name="email" required/>
+        <label for="comment">Comment:</label>
+        <textarea rows="3" id="basic" id="comment" name="comment" required></textarea>
+        <div class="submit">
+          <input type="submit" value="Send" id="submit"/>
+        </div>
+      </form>
     </div>
 
   </body>
