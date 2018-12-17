@@ -1,5 +1,5 @@
 body{
-  width: 960px;
+  width: 90%;
   text-align: center;
   padding:50px;
   margin: 0 auto;
@@ -7,16 +7,15 @@ body{
 
 .content{
   overflow: auto;
-  height: 100%;
 }
 
 header{
-  letter-spacing: .5em;
+  letter-spacing: .1em;
 }
 
 li{
   display: inline;
-  padding-right:102px;
+  padding-right: 10%;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 200;
@@ -33,19 +32,32 @@ a:hover{
 }
 
 nav, .feature, footer{
-  margin: 10px;
-  padding:10px;
+  margin: 1%;
 }
+
+nav{
+  margin: 35px;
+}
+
 
 .feature{
   font-size: 34px;
   background-color: #efefef;
   font-style: italic;
   letter-spacing: .1em;
+  padding: 0.5em 0;
+}
+
+.feature{
+  margin-bottom: 1em;
 }
 
 .quote1, .quote2, .quote3 {
-  width: 300px;
+  width: 31.3%;
   float: left;
-  margin: 10px;
+  margin: 1%;
+}
+
+.quote3{
+  margin-right:0%;
 }
